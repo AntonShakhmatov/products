@@ -42,11 +42,11 @@ const showProfile = () => `
     "message": "Bad Request"
     {
     </code>
-    <b>2. Authentication failed</b>
-    <h4 class="status-header">Status:</h4><i class="status status-unsuccess">401 Unauthorized</i> 
+    <b>3. Change method for POST</b>
+    <h4 class="status-header">Status:</h4><i class="status status-unsuccess">401 Change method</i> 
     <code>
         {
-        "message": "Unauthorized"
+        "message": "Change method for POST"
         {
     </code>
     </div>

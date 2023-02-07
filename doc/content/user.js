@@ -2,7 +2,7 @@ const showSession = () => `
 <div>
     <h2>User</h2>
     <i class="task-desc">
-    Přidat nového uživatele. Uživatel je administrator použiva bota, aktualizuje uživatelskou databázi.</i>
+    Přidat nového uživatele. Uživatel je administrator, pracuje s botem.</i>
     <div class="method"><span class="method-post">POST</span><b>/user</b></div>
     <div class="desc-block desc-block-header">
         <h3>Headers:</h3>

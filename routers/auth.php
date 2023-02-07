@@ -40,6 +40,6 @@ function route($method, $urlList, $requestData)
                 break;
         }
     } else {
-        setHTTPStatus("401", "Change method for POST'");
+        setHTTPStatus("401", "Change method for POST");
     }
 }
