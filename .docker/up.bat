@@ -1,0 +1,1 @@
+docker-compose -p fraimeworkt up -d --build --force-recreate
