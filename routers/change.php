@@ -19,11 +19,11 @@ function route($method, $urlList, $requestData)
             if (!is_null($userFromToken)) {
                 $id = $Link->query("SELECT uuid FROM product")->fetch_assoc();
                 if (!is_null($id)) {
-
+                    $uuid = $requestData->body->uuid;
                     $name = $requestData->body->name;
                     $url = $requestData->body->url;
                     $price = $requestData->body->price;
-                    $productUpdateResult = $Link->query("UPDATE product SET name = '$name', url = '$url', price = '$price'");
+                    $productUpdateResult = $Link->query("UPDATE product SET name = '$name', url = '$url', price = '$price' WHERE uuid = '$uuid'");
 
                     if (!$productUpdateResult) {
                         setHTTPStatus("403", "Forbidden");
