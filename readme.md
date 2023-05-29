@@ -1,0 +1,1 @@
+Product selecter with authenticator (Connection to the database is required and needs to be configured in index.php depending on the table name and its fields)
